@@ -1,0 +1,15 @@
+# Copyright (c) Authors: joneldominictapang.dev@gmail.com
+#
+# This file is licensed under the terms of the GNU General Public
+# License version 3. This program is licensed "as is" without any
+# warranty of any kind, whether express or implied.
+
+[user]
+	email = ***@***.***
+	name = ***
+
+[alias]
+	show-branch-graph = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(auto)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)'
+	show-graph = !git show-branch-graph --all
+	s-g = !git show-graph
+	s-b-g = !git show-branch-graph
