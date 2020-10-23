@@ -1,2 +1,2 @@
 # linux
-A backup for my linux config, theme, etc.
+A backup of my linux config, theme, etc.
